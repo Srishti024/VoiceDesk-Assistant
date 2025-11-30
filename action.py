@@ -19,15 +19,6 @@ def Action(send) :
         speak.speak("Hey sir, How i can  help you !")  
         return "Hey sir, How i can  help you !" 
     
-
-    elif "kirti" in data_btn  or "hye" in data_btn  or "hay" in data_btn: 
-        speak.speak("Kirti is a girl who is doing bba,and she spends her all time in watching reels on instagram despite of studying for the cat exam.uhhhh the girl she is!")  
-        return "Kirti is a girl who is doing bba,and she spends her all time in watching reels on instagram despite of studying for the cat exam.uhhhh the girl she is!" 
-    
-    elif "tarunj" in  data_btn :
-            speak.speak("tarunj is a nice handsome guy having dudu like face and a monkey personality.He is intelligent as a monkey should be.Tarunj will became successfull one day. He should be calm and keep doing. And at the end he will always be dudu and betu  hehehehehe. ") 
-            return "tarunj is a nice handsome guy having dudu like face and a monkey personality.He is intelligent as a monkey should be.Tarunj will became successfull one day. He should be calm and keep doing. And at the end he will always be dudu and betu  hehehehehe."   
-    
     elif "how are you" in  data_btn :
             speak.speak("I am doing great these days sir") 
             return "I am doing great these days sir"   
